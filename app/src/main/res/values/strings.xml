@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">intento4</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="titulo">¡Bienvenido!</string>
+    <string name="capturador">name</string>
+    <string name="regresar">Regresar</string>
+
+    <string name="nombre">Nombres</string>
+    <string name="nombrecompleto">Nombre completo</string>
+
+
+    <string name="apellido">Apellidos</string>
+    <string name="cargo">Cargo</string>
+    <string name="dia">Dias laborando</string>
+    <string name="btn_1">Liquidar</string>
+    <string name="titulo1">Registro de empleado</string>
+    <string name="sueldo">Sueldo base</string>
+
+    <string name="titulo2">liquidacion</string>
+    <string name="salir">Salir</string>
+    <string name="chec1">Descuento</string>
+    <string name="chec2">Pencion</string>
+    <string name="chec3">Salud</string>
+
+
+</resources>

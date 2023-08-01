@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".liquidacion">
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="58dp"
+        android:text="@string/titulo2" />
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="221dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="141dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/cargos"
+        android:layout_width="217dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="202dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sueldobase"
+        android:layout_width="217dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="267dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/diast"
+        android:layout_width="221dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="337dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sueldoneto"
+        android:layout_width="226dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="102dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="12dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/valor_dd"
+        android:layout_width="205dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginBottom="280dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvsd"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginBottom="215dp"
+        android:text="TextView" />
+
+</RelativeLayout>
