@@ -66,8 +66,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="84dp"
-        android:layout_marginBottom="102dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="184dp"
         android:text="TextView" />
 
     <Button
@@ -88,16 +88,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="86dp"
         android:layout_marginBottom="280dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/tvsd"
-        android:layout_width="190dp"
-        android:layout_height="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="94dp"
-        android:layout_marginBottom="215dp"
         android:text="TextView" />
 
 </RelativeLayout>

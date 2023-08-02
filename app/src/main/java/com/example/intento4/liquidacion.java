@@ -26,13 +26,16 @@ public class liquidacion extends AppCompatActivity {
         String cargo = getIntent().getStringExtra("cargo");
         String sueldo = getIntent().getStringExtra("sueldo");
         String dia = getIntent().getStringExtra("dia");
-        Integer sueldo_dia = getIntent().getIntExtra("valor_dia", 0);
+        double sueldo_neto = getIntent().getDoubleExtra("neto", 0.0);
+        double sueldo_bruto = getIntent().getDoubleExtra("salario_bruto", 0.0);
 
-        nombres.setText("nombres: "+ nombre + apellido);
-        cargos.setText("cargo: "+cargo);
-        sueldobase.setText("Sueldo base: "+sueldo);
-        diast.setText("Dias trabajados: "+ dia);
-        valor_dia.setText("valor por dia de trabajo "+ sueldo_dia);
+        sueldoneto.setText(String.valueOf(sueldo_neto));
+        valor_dia.setText(String.valueOf(sueldo_bruto));
+        nombres.setText( nombre + apellido);
+        cargos.setText(cargo);
+        sueldobase.setText(sueldo);
+        diast.setText( dia);
+
     }
 
 

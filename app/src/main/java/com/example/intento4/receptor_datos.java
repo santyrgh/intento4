@@ -36,17 +36,35 @@ public class receptor_datos extends AppCompatActivity {
 
    public void liquidacion (View view){
 
-        String sueldo_string = sueldo.getText().toString();
-       String  dia_string= dia.getText().toString();
+       // valor por dia
 
-       int dia_int =  Integer.parseInt(dia_string);
-       int sueldo_int = Integer.parseInt(sueldo_string);
-       int valor_dia = sueldo_int / dia_int;
-       int sueldoneto = 0;
-       if (check1.isChecked() &&  check2.isChecked() && check3.isChecked() ){
-          int porcetotal = sueldo_int * ( 11 / 100);
-           sueldoneto = sueldo_int - porcetotal;
+
+       double sueldo_inicial = Double.parseDouble(sueldo.getText().toString());
+       double dias = Double.parseDouble(dia.getText().toString());
+
+
+       Boolean descuento = check1.isChecked();
+       Boolean salud = check2.isChecked();
+       Boolean pension = check3.isChecked();
+
+
+       double porcentaje_descuento = 0;
+       if(descuento){
+           porcentaje_descuento += 3;
        }
+       if(salud){
+           porcentaje_descuento += 4;
+       }
+       if(pension){
+           porcentaje_descuento += 4;
+       }
+       double descuento_obtenido = sueldo_inicial * (porcentaje_descuento / 100);
+       double v_dia = sueldo_inicial / 30;
+       double salario_bruto =  v_dia * dias;
+       double sueldo_neto = salario_bruto - descuento_obtenido;
+
+
+
 
        Intent i = new Intent(this, liquidacion.class);
         i.putExtra("nombre",nombre.getText().toString());
@@ -54,8 +72,8 @@ public class receptor_datos extends AppCompatActivity {
         i.putExtra("cargo",cargo.getText().toString());
         i.putExtra("sueldo",sueldo.getText().toString());
        i.putExtra("dia",dia.getText().toString());
-       i.putExtra("valor_dia",valor_dia);
-       i.putExtra("sueldo_neto",sueldoneto);
+       i.putExtra("salario_bruto",v_dia);
+       i.putExtra("neto", sueldo_neto);
        startActivity(i);
     }
 
