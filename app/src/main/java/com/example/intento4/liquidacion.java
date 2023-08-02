@@ -3,6 +3,7 @@ package com.example.intento4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class liquidacion extends AppCompatActivity {
@@ -29,13 +30,17 @@ public class liquidacion extends AppCompatActivity {
         double sueldo_neto = getIntent().getDoubleExtra("neto", 0.0);
         double sueldo_bruto = getIntent().getDoubleExtra("salario_bruto", 0.0);
 
-        sueldoneto.setText(String.valueOf(sueldo_neto));
-        valor_dia.setText(String.valueOf(sueldo_bruto));
-        nombres.setText( nombre + "  " + apellido);
-        cargos.setText(cargo);
-        sueldobase.setText(sueldo);
-        diast.setText( dia);
+        sueldoneto.setText("Liquidacion: "+String.valueOf(sueldo_neto));
+        valor_dia.setText("Valor por dia: "+String.valueOf(sueldo_bruto));
+        nombres.setText("Empleado: "+nombre + "  " + apellido);
+        cargos.setText("Cargo: "+cargo);
+        sueldobase.setText("Suledo: "+sueldo);
+        diast.setText("Dias laborados: "+ dia);
 
+    }
+
+    public void regresar(View view){
+        finish();
     }
 
 

@@ -6,12 +6,14 @@
     <string name="regresar">Regresar</string>
 
     <string name="nombre">Nombres</string>
-    <string name="nombrecompleto">Nombre completo</string>
+    <string name="nombrecompleto">Empleado</string>
+<string name="salario">Salario</string>
 
     <string name="sihiente">Siguiente</string>
     <string name="apellido">Apellidos</string>
     <string name="cargo">Cargo</string>
     <string name="dia">Dias laborando</string>
+    <string name="diast">valor dia</string>
     <string name="btn_1">Liquidar</string>
     <string name="titulo1">Registro de empleado</string>
     <string name="sueldo">Sueldo base</string>

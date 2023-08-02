@@ -30,7 +30,6 @@ public class receptor_datos extends AppCompatActivity {
         check1=(CheckBox) findViewById(R.id.check1);
         check2=(CheckBox) findViewById(R.id.check2);
         check3=(CheckBox) findViewById(R.id.check3);
-
     }
 
 

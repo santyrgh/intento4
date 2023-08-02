@@ -20,7 +20,7 @@
         android:layout_marginTop="596dp"
         android:layout_marginEnd="114dp"
         android:backgroundTint="#EC0707"
-        android:drawableLeft="@drawable/izquierda"
+        android:drawableLeft="@drawable/baseline_keyboard_backspace_24"
         android:onClick="regreso"
         android:text="@string/regresar" />
 
@@ -45,6 +45,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="74dp"
         android:layout_marginTop="123dp"
+        android:drawableLeft="@drawable/usuarios"
         android:ems="10"
         android:hint="@string/nombre"
         android:inputType="text" />
@@ -59,6 +60,7 @@
         android:layout_marginTop="175dp"
         android:ems="10"
         android:hint="@string/apellido"
+        android:drawableLeft="@drawable/usuarios"
         android:inputType="text" />
 
     <EditText
@@ -70,6 +72,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="228dp"
         android:ems="10"
+        android:drawableLeft="@drawable/cargo"
         android:hint="@string/cargo"
         android:inputType="text" />
 
@@ -82,6 +85,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="285dp"
         android:ems="10"
+        android:drawableLeft="@drawable/money"
         android:hint="@string/sueldo"
         android:inputType="number" />
 
@@ -96,6 +100,7 @@
         android:layout_marginBottom="364dp"
         android:ems="10"
         android:hint="@string/dia"
+        android:drawableLeft="@drawable/calendario"
         android:inputType="number" />
 
     <CheckBox
