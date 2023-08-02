@@ -8,7 +8,7 @@
     <string name="nombre">Nombres</string>
     <string name="nombrecompleto">Nombre completo</string>
 
-
+    <string name="sihiente">Siguiente</string>
     <string name="apellido">Apellidos</string>
     <string name="cargo">Cargo</string>
     <string name="dia">Dias laborando</string>

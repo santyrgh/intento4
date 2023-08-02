@@ -35,13 +35,9 @@ public class receptor_datos extends AppCompatActivity {
 
 
    public void liquidacion (View view){
-
        // valor por dia
-
-
        double sueldo_inicial = Double.parseDouble(sueldo.getText().toString());
        double dias = Double.parseDouble(dia.getText().toString());
-
 
        Boolean descuento = check1.isChecked();
        Boolean salud = check2.isChecked();
@@ -63,9 +59,6 @@ public class receptor_datos extends AppCompatActivity {
        double salario_bruto =  v_dia * dias;
        double sueldo_neto = salario_bruto - descuento_obtenido;
 
-
-
-
        Intent i = new Intent(this, liquidacion.class);
         i.putExtra("nombre",nombre.getText().toString());
         i.putExtra("apellido",apellido.getText().toString());
@@ -74,6 +67,7 @@ public class receptor_datos extends AppCompatActivity {
        i.putExtra("dia",dia.getText().toString());
        i.putExtra("salario_bruto",v_dia);
        i.putExtra("neto", sueldo_neto);
+
        startActivity(i);
     }
 

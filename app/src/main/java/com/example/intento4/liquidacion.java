@@ -31,7 +31,7 @@ public class liquidacion extends AppCompatActivity {
 
         sueldoneto.setText(String.valueOf(sueldo_neto));
         valor_dia.setText(String.valueOf(sueldo_bruto));
-        nombres.setText( nombre + apellido);
+        nombres.setText( nombre + "  " + apellido);
         cargos.setText(cargo);
         sueldobase.setText(sueldo);
         diast.setText( dia);
