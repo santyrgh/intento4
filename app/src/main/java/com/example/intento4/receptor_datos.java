@@ -49,20 +49,20 @@ public class receptor_datos extends AppCompatActivity {
        if(descuento){
            porcentaje_descuento += 3;
 
-           double descuentoe = sueldo_inicial * (porcentaje_descuento / 100);
+           double descuentoe = sueldo_inicial * 0.03;
            i.putExtra("descuentoe",descuentoe);
        }
        if(salud){
            porcentaje_descuento += 4;
 
-           double salude = sueldo_inicial * (porcentaje_descuento / 100);
+           double salude = sueldo_inicial * 0.04;
            i.putExtra("salude",salude);
 
        }
        if(pension){
            porcentaje_descuento += 4;
 
-           double pencione = sueldo_inicial * (porcentaje_descuento / 100);
+           double pencione = sueldo_inicial * 0.04;
            i.putExtra("pencione",pencione);
        }
        double descuento_obtenido = sueldo_inicial * (porcentaje_descuento / 100);
