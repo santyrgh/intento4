@@ -23,6 +23,6 @@
     <string name="chec1">Descuento</string>
     <string name="chec2">Pencion</string>
     <string name="chec3">Salud</string>
-
+    <string name="valoracion">La liquidacion incluye descuentos en:</string>
 
 </resources>

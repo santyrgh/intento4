@@ -20,7 +20,6 @@
         android:layout_marginTop="596dp"
         android:layout_marginEnd="114dp"
         android:backgroundTint="#EC0707"
-        android:drawableLeft="@drawable/baseline_keyboard_backspace_24"
         android:onClick="regreso"
         android:text="@string/regresar" />
 
@@ -147,7 +146,6 @@
         android:layout_marginEnd="116dp"
         android:layout_marginBottom="57dp"
         android:backgroundTint="@color/blues"
-        android:drawableRight="@drawable/baseline_arrow_forward_24"
         android:onClick="liquidacion"
         android:text="@string/btn_1" />
 

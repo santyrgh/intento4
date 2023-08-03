@@ -8,6 +8,76 @@
 
 
     <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="208dp"
+        android:text="@string/valoracion"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descuentoe"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="185dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/salude"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="161dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pencione"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="137dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descuo"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="90dp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
         android:id="@+id/textView18"
         android:layout_width="227dp"
         android:layout_height="59dp"
@@ -25,17 +95,18 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="203dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="665dp"
-        android:layout_marginEnd="121dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="17dp"
         android:backgroundTint="#EC0707"
-        android:drawableLeft="@drawable/baseline_keyboard_backspace_24"
         android:onClick="regresar"
         android:text="@string/regresar" />
 
@@ -99,7 +170,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="26dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="198dp"
+        android:layout_marginBottom="234dp"
         android:text="TextView"
         android:textColor="#FF5722"
         android:textColorHighlight="#FF5722"

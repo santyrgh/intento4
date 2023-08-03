@@ -35,7 +35,6 @@
         android:layout_marginEnd="126dp"
         android:layout_marginBottom="70dp"
         android:backgroundTint="@color/blues"
-        android:drawableRight="@drawable/baseline_arrow_forward_24"
         android:onClick="Enviar"
         android:text="@string/sihiente" />
 
