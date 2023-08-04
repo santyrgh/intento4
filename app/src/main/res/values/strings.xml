@@ -7,7 +7,7 @@
 
     <string name="nombre">Nombres</string>
     <string name="nombrecompleto">Empleado</string>
-<string name="salario">Salario</string>
+    <string name="salario">Salario</string>
 
     <string name="sihiente">Siguiente</string>
     <string name="apellido">Apellidos</string>
